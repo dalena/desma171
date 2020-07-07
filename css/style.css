@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+html {
+    background: url(../img/1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2 !important;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.block {
+    display: none;
+}
+
+a,
+.button {
+    color: #000;
+    background: #00ffff9f;
+    text-decoration: none;
+    padding-bottom: .1em;
+    /* border-bottom: 1.75px solid #ff0000; */
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+    /* background: yellow; */
+}
+
+.parallax4 .button {
+    background: none;
+    list-style-type: none;
+}
+
+.parallax4 .button:hover {
+    display: inline-block;
+    /* background: none; */
+}
+
+h1 a {
+    /* background: none !important; */
+    text-decoration: none;
+}
+
+.headingText {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 2em; */
+}
+
+.headingText h4 {
+    text-align: center;
+}
+
+.headingText h4:not(:last-child) {
+    padding-right: 2em;
+}
+
+.content {
+    width: 900px;
+}
+
+
+nav {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+nav li {
+    color: #000;
+    display: inline-block;
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    /* font-weight: normal; */
+    letter-spacing: .1em;
+}
+
+h1 {
+    margin: 2em 0 3em 0;
+    padding: 0;
+    text-decoration: none;
+    /* font-weight: normal; */
+    font-size: 1.75em;
+    text-align: center;
+}
+
+h2 {
+    /* font-weight: normal; */
+    font-size: 1.75em;
+    margin-top: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1.35em;
+    font-weight: normal;
+
+}
+
+h3,
+table {
+    margin-top: 2em;
+}
+
+h4 {
+    font-weight: normal;
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.weekBox {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.toggle h4 {
+    /* font-weight: bold; */
+}
+
+.dayBox {
+    /* background: peachpuff; */
+    flex-basis: 100%;
+    /* text-align: center; */
+}
+
+.dayBox ul {
+    /* min-height: 180px; */
+    padding-bottom: .5em;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2em;
+}
+
+section {
+    margin-bottom: 4em;
+}
+
+
+#schedule h3,
+#projects h3 {
+    padding: .3em;
+    margin: 0.5em 0;
+    display: block;
+    clear: both;
+}
+
+#schedule a {
+    background: none;
+    transition: all 0.5s ease-in-out;
+    border-bottom: 1px solid #00ffff;
+}
+
+#schedule a:hover {
+    color: #000;
+    background: #00ffff;
+    border-bottom: none;
+}
+
+.aBox {
+    background: #ff00ff1a;
+}
+
+.bBox {
+    background: #00ffff1a;
+}
+
+.aBox,
+.bBox {
+    display: flex;
+    padding-left: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+.dayBox h4 {
+    margin: .2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+li img {
+    margin: 0.5em 0;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    vertical-align: top;
+}
+
+td:nth-child(1) {
+    width: 15%;
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    width: 15%;
+}
+
+td {
+    width: 70%;
+}
+
+ol li {
+    margin-bottom: 1em;
+}
+
+#meetings {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#meetings tr:nth-child(1) {
+    text-decoration: underline;
+}
+
+#meetings td:nth-child(1) {
+    font-weight: normal;
+}
+
+#meetings td:nth-child(2) {
+    min-width: 6em;
+}
+
+.spacer {
+    height: 1em;
+}
+
+.weekspacer {
+    height: 3em;
+}
+
+
+#projects div {
+    width: 100%;
+    float: left;
+    margin-bottom: 1em;
+}
+
+#projects h4 {
+    font-weight: bold;
+}
+
+
+a:hover,
+.button:hover {
+    color: #fff;
+    background: #ff00ff9f;
+    cursor: pointer;
+}
+
+.label {
+    font-weight: bold;
+}
+
+
+pre {
+    line-height: 1.45em;
+}
+
+#bird-cnv {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+#updated {
+    width: 100%;
+    text-align: right;
+    color: #5f5f5f;
+    position: relative;
+    right: -1.5em;
+    bottom: -1.5em;
+}
+
+.toggle {
+    /* transition: height 0.5s ease; */
+    margin-left: 1em;
+    border-left: 2px solid rgb(255, 255, 255);
+    padding-left: 1em;
+}
+
+
+.toggles {
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    background: #0000ff1a;
+    /* display: inline-block; */
+}
+
+.toggles:hover {
+    background: #0000ff49;
+    /* border-bottom: 1.75px solid #f3b328; */
+    /* color: #fff; */
+
+}
+
+.headLink {
+    border: none;
+}
+
+.headLink:hover {
+    border: none;
+}
+
+.parWrap {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    /* width: 100%; */
+    /* height: 100%; */
+
+}
+
+.parallax {
+    width: 50vw;
+    min-height: 100vh;
+    transform-style: preserve-3d;
+
+}
+
+.parallax2 {
+    left: 15vw;
+    top: 15vh;
+    width: 500px;
+    height: 700px;
+    background: url("../img/1.png") no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: -10 !important;
+
+}
+
+.parallax3 {
+    left: 5vw;
+    top: 25vh;
+    width: 450px;
+    height: 600px;
+    background: url("../img/1.png") no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: -10 !important;
+}
+
+.parallax4 {
+    left: 15vw;
+    top: 24vh;
+    /* width: 100%;
+    height: 100%; */
+    position: absolute;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    z-index: 100 !important;
+}
+
+.parallax4 a {
+    font-size: 1.5em;
+    color: #000;
+    line-height: 1.5em;
+    text-decoration: none;
+    border-bottom: solid #000 1px;
+}
+
+.finProject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 2em;
+    }
+
+    h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    #links {
+        text-align: center;
+        width: 95%;
+    }
+
+    nav {
+        width: 100%;
+        left: 0;
+        top: 5em;
+    }
+
+    .headingText {
+        display: initial;
+        text-align: center;
+    }
+
+    .weekBox {
+        flex-direction: column;
+
+    }
+
+    .content {
+        padding: 0;
+    }
+    .parallax{
+        display:none;
+    }
+
+
+}
+
+@media screen and (max-width: 1110px) {
+    #bird-cnv {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .parWrap{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    .final {
+        display:inline-block;
+    }
+    .parallax4 {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .parallax2 {
+        left: 15vw;
+        top: 25vh;
+        width: 400px;
+        height: 600px;
+
+    }
+
+    .parallax3 {
+        left: 5vw;
+        top: 35vh;
+        width: 350px;
+        height: 500px;
+    }
+
+    .parallax4 {
+        left: 10vw;
+        top: 30vh;
+    }
+}

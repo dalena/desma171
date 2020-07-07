@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='viewport' content='width=device-width'>
+    <link rel='stylesheet' href='css/normalize.min.css'>
+    <link rel='stylesheet' href='css/style.css'>
+    <!-- <link rel='stylesheet' href='css/reset.css'> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <title>DESMA 171 - Compressed Cinema</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="content">
+                <h1><a href="/">Compressed Cinema</a></h1>
+                <div class='headingText'>
+                    <h4>Topics in Interactivity and Games</h4>
+                    <h4>DESMA 171</h4>
+                    <h4>Fall 2019</h4>
+                </div>
+                <div class='headingText'>
+                    <h4>Professor <b>Casey REAS</b></h4>
+                    <h4>Teaching Assistant <b>Dalena Tran</b></h4>
+                </div>
+                <nav>
+                    <ul id='links'>
+                        <li class='button' data-id='syllabus'>Syllabus</li>
+                        <li class='button' data-id='schedule'>Schedule</li>
+                        <li class='button' data-id='projects'>Projects</li>
+                        <li class='button' data-id='final'>Final Projects</li>
+                    </ul>
+                </nav>
+                <!-- SYLLABUS -->
+                <div id='syllabus' class='block' style='display: block'>
+
+                    <h2>Syllabus</h2>
+                    <section>
+                        <h3>Class Sessions</h3>
+                        Tuesdays & Thursdays 2PM-4:50PM<br>
+                        Broad Art Center 4220
+                        <br><br>
+                        <h3>Description</h3>
+                        <p>
+                            Compressed Cinema is a studio that explores time-based media as new forms that synthesize
+                            histories of creative coding, gaming, cinema, avant-garde film, and experimental video. In
+                            this class we will watch, read, create, and discuss. We will screen cinematic works from the
+                            last century and discuss them as a group. We will study and discuss a collection of texts.
+                            After completing a series of short projects, each participant will create a work
+                            self-defined as Compressed Cinema. This work will be screened at the end of the quarter.
+                        </p>
+                        <p>
+                            Through the last half of the 20th Century, cinema moved from single-screen presentations to
+                            multiple screen installations through a shift in architecture and technologies that moved
+                            from film to video to digital media. Compressed cinema is a return to the apparatus of the
+                            theater. It is also a post-analog approach to time-based images where animation, video,
+                            code, and photography are integrated, rather than separated media.
+                        </p>
+                        <p>
+                            For everyone in the class, there are four primary assignments. There are three projects,
+                            followed by the majority of the quarter producing a larger, self-defined work. The final
+                            class session will be a screening of the work followed by a discussion. Our class screening
+                            and review will be followed by a public presentation of the work.
+                        </p>
+                        <h3>Evaluation</h3>
+                        <p>You must attend each class, participate in discussions, and complete all assignments. Grading
+                            is based on the initial exercises, the final project, and active participation during class
+                            meetings. Punctuality, focus, articulation of concepts, and contribution to class
+                            discussions are all part of class participation. The numeric breakdown for all assignments
+                            follow:</p>
+                        <ul>
+                            <li>5% — Participation</li>
+                            <li>5% — Cinema Image</li>
+                            <li>20% — Scanner Cinema</li>
+                            <li>20% — Rotoshop</li>
+                            <li>50% — Final project</li>
+                        </ul>
+                        <p>Late assignments may be accepted, but points will be deducted from the score.</p>
+
+                        <p>More than two unexcused absences will lower your final grade by one unit (i.e. an A will
+                            become
+                            an B). With each additional unexcused absence, the grade will drop an additional unit.</p>
+
+                        <p>Class starts at 2pm. If you are over 10 minutes late, you will receive a tardy. Three tardies
+                            are equivalent to one absence.</p>
+
+                        <p>If there is an emergency and you will be late or absent from the class, please email me.</p>
+
+                        <p>If you feel frustrated or you come across other problems, please communicate with me directly
+                            and quickly.</p>
+                        <h3>Commitment to Equity & Diversity</h3>
+                        <p>We understand the classroom as a space for practicing freedom; where one may challenge
+                            psychic, social, and cultural borders and create meaningful artistic expressions. To do so
+                            we must acknowledge and embrace the different identities and backgrounds we inhabit. A
+                            collaborative effort between the students and the teacher is needed for creating a
+                            supportive learning environment. While everyone should feel free to experiment creatively
+                            and conceptually, if a class member points out that something you have said or shared with
+                            the group is offensive, avoid being defensive; instead approach the discussion as an
+                            opportunity for everyone to grow and learn from one another. All class members are
+                            encouraged to discuss such instances with me so they can be addressed with greater care in
+                            the future.</p>
+                        <h3>Students with Different Needs</h3>
+                        <p>Students with a disability or health-related issue who need a class accommodation should make
+                            an appointment to speak with me as soon as possible. It is University policy that students
+                            with documented disabilities receive reasonable accommodations through access to classroom
+                            information. If you have a physical, psychological/psychiatric or medical condition, or a
+                            learning disability that will make it difficult for you to carry out the work outlined in
+                            the syllabus, or that will require additional time for taking exams and completing
+                            assignments, please notify me and visit the UCLA Center for Accessible Education in the
+                            first two weeks of the quarter so that we may make appropriate arrangements. All information
+                            and documentation is confidential.</p>
+                        <h3>Media Resources</h3>
+                        <a href="">Electronic Arts Intermix</a> (EAI) — Video, New York
+                        <br>
+                        <a href="">Video Data Bank</a> (VDB) — Video, Chicago
+                        <br>
+                        <a href="">Anthology Film Archives</a> — Film, New York
+                        <br>
+                        <a href="">American Cinematheque</a> — Film, Los Angeles
+                        <br>
+                        <a href="">UCLA Film & Television Archive</a> — Film, Los Angeles
+                    </section>
+                </div>
+                <!-- SCHEDULE -->
+                <div id='schedule' class='block'>
+                    <h2>Schedule</h2>
+                    <section>
+                        <!-- WEEK 0 -->
+                        <h3 id='w0' class='toggles'>Week 0</h3>
+                        <div id='w0-content' class='toggle' style='display:block;'>
+                            <div class='weekBox'>
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thur - September 6<br> <b>Introduction</b></h4>
+                                    </div>
+                                    <br>
+                                    <h4>Screening A</h4>
+                                    <h4>Screening B</h4>
+                                    <ul>
+                                        <li>Considerations:</li>
+                                        <ul>
+                                            <li>Visual representation</li>
+                                            <li>Editing techniques and effects</li>
+                                            <li>Audio</li>
+                                        </ul>
+                                    </ul>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>
+                                            Project 1: Cinema Image, Due on Tuesday, October 1
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - October 1<br> <b>Film as Image ↔ Image as Film</b></h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Project 1: Cinema Image due</b>, Discussion</h4>
+                                    <h4>Screening C</h4>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>
+                                            Watch Free Radicals: A History Of Experimental Film, d. Pip Chodorov
+                                            <ul>
+                                                <li>Online @ Kanopy, free with UCLA:
+                                                    https://ucla.kanopy.com/video/free-radicals-0</li>
+                                                <li>If you’re off campus, use a VPN to gain access</li>
+                                                <li>Be ready to discuss on Tuesday, bring your notes</li>
+                                            </ul>
+                                        </li>
+                                        <li>Scanner Cinema, Part 1 due Thursday</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 1 -->
+                        <h3 id='w1' class='toggles'>Week 1</h3>
+                        <div id='w1-content' class='toggle' style='display:none;'>
+                            <div class='weekBox'>
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - October 3</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Discuss Free Radicals, bring notes</h4>
+                                    <h4>Review Scanner Cinema code template (dissect_01)
+                                    </h4>
+                                    <ul>
+                                        <li>Grid Sample
+                                        </li>
+                                    </ul>
+                                    <h4>Open studio, come prepared to work
+                                    </h4>
+                                    <h4>1:1 Discussions about Scanner Cinema, Part 1
+                                    </h4>
+                                    <h4>Assignments
+                                    </h4>
+                                    <ul>
+                                        <li>
+                                            Scanner Cinema, Part 2 due Tuesday
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - October 8</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Note: Public Screening for FINAL 6–8 PM on December 10th (CONFIRMED)</h4>
+                                    <h4>Open studio, come prepared to work
+                                    </h4>
+                                    <h4>1:1 Discussions about Scanner Cinema, Part 2
+                                    </h4>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>Scanner Cinema, Part 3 due Thursday
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 2 -->
+                        <h3 id='w2' class='toggles'>Week 2</h3>
+                        <div id='w2-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - October 10</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Open studio, come prepared to work
+                                    </h4>
+                                    <h4>1:1 Discussions about Scanner Cinema, Part 3
+                                    </h4>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>Scanner Cinema, Part 4 due Tuesday
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - October 15</h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Project 2: Scanner Cinema due</b>, Discussion</h4>
+                                    <h4>Screening D</h4>
+                                    <ul>
+                                        <li>A Brief History of Rotoscoping</li>
+                                    </ul>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>Read “What is Digital Cinema” by Lev Manovich. Take notes and be ready to
+                                            discuss on Thursday. The PDF is in “drop”on the class server. This text is
+                                            not difficult, but it is long. Give yourself enough time to read it
+                                            carefully. Remember, take notes.</li>
+                                        <li>Project 2: Rotoshop, Due on Tuesday, October 29th</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- WEEK 3 -->
+                        <h3 id='w3' class='toggles'>Week 3</h3>
+                        <div id='w3-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - October 17</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Discuss “What is Digital Cinema,” bring your notes</h4>
+
+                                    <h4>Waking Life Rotoshop Demo</h4>
+
+                                    <h4>“Sorting Hat”</h4>
+
+                                    <h4>Rotoscope Demo and Practice</h4>
+
+                                    <h4>Coding in Processing</h4>
+
+                                    <h4>Finalize Project 2: Rotoshop groups</h4>
+
+                                    <h4>Open studio, begin working on Project 2: Rotoshop</h4>
+
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - October 22</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Open studio, come prepared to work in your group and with completed
+                                        experiments for Part 1
+                                    </h4>
+                                    <h4>1:1 Group discussions about Rotoshop, Part 1
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- WEEK 4 -->
+                        <h3 id='w4' class='toggles'>Week 4</h3>
+                        <div id='w4-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - October 24</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Open studio, come prepared to work with your group
+                                    </h4>
+                                    <h4>1:1 Group discussions about Rotoshop, Part 2
+                                    </h4>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - October 29</h4>
+                                    </div>
+                                    <br>
+                                    <h4><s>Project 3: Rotoshop due, Discussion</s>
+                                    </h4>
+                                    <h4>Screening E
+                                    </h4>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>Read “Soft Cinema” by Lev Manovich and “Fantasy Beyond Control” by Lynn
+                                            Hershman Leeson</li>
+                                        <ul>
+                                            <li>Be ready to discuss on Thursday, bring your notes</li>
+                                        </ul>
+                                        <li>Final Project, Due on December 5</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 5 -->
+                        <h3 id='w5' class='toggles'>Week 5</h3>
+                        <div id='w5-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - October 31</h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Project 3: Rotoshop due, Discussion</b></h4>
+                                    <h4>Bonus Screening
+                                    </h4>
+                                    <h4>Discuss “Soft Cinema” and “Fantasy Beyond Control,” bring your notes
+                                    </h4>
+                                    <h4>1:1 Discussions about Final Project
+                                    </h4>
+                                    <h4>Open Studio
+                                    </h4>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - November 5</h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Final Project, Part 1 Due, Full-class discussion</b>
+                                    </h4>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li><s>Read “In Defense of the Poor Image” by Hito Steyerl
+                                                <ul>
+                                                    <li>Be ready to discuss on Thursday, bring your notes</s>
+                                        </li>
+                                    </ul>
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 6 -->
+                        <h3 id='w6' class='toggles'>Week 6</h3>
+                        <div id='w6-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - November 7</h4>
+                                    </div>
+                                    <br>
+                                    <h4><s>Discuss “In Defense of the Poor Image”, bring your notes</s>
+                                    </h4>
+                                    <h4>Open Studio</h4>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - November 12</h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Final Project, Part 2A Due
+                                        </b></h4>
+                                    <h4>Discuss work in small groups</h4>
+                                    <h4>Open Studio
+                                    </h4>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>Read “Crazy Cameras, Discorrelated Images, and the Post-Perceptual Mediation
+                                            of Post-Cinematic Affect” by Shane Denson
+                                            <ul>
+                                                <li>Be ready to discuss on Thursday, bring your notes
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 7 -->
+                        <h3 id='w7' class='toggles'>Week 7</h3>
+                        <div id='w7-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - November 14</h4>
+                                    </div>
+                                    <br>
+                                    <h4>POST-CINEMA Trailer
+                                    </h4>
+                                    <h4>Discuss “Crazy Cameras, Discorrelated Images, and the Post-Perceptual Mediation
+                                        of Post-Cinematic Affect”, bring your notes</h4>
+                                    <h4>Open Studio</h4>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - November 19</h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Final Project, Part 2B Due
+                                        </b></h4>
+                                    <h4>Discuss work in small groups</h4>
+                                    <h4>Open Studio
+                                    </h4>
+                                    <h4>Assignments</h4>
+                                    <ul>
+                                        <li>Read “In Defense of the Poor Image” by Hito Steyerl
+                                            <ul>
+                                                <li>Be ready to discuss on Thursday, bring your notes
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 8 -->
+                        <h3 id='w8' class='toggles'>Week 8</h3>
+                        <div id='w8-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - November 21</h4>
+                                    </div>
+                                    <br>
+                                    <h4><s>Discuss “In Defense of the Poor Image”, bring your notes</s>
+                                    </h4>
+                                    <h4>Open Studio</h4>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - November 26</h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Final Project, Part 2C Due
+                                        </b></h4>
+                                    <h4>Discuss work in small groups</h4>
+                                    <h4>Open Studio
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 9 -->
+                        <h3 id='w9' class='toggles'>Week 9</h3>
+                        <div id='w9-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - November 28</h4>
+                                    </div>
+                                    <br>
+                                    <h4>UCLA Holiday, No class
+                                    </h4>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - December 3</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Open Studio
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- WEEK 10 -->
+                        <h3 id='w10' class='toggles'>Week 10</h3>
+                        <div id='w10-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Thurs - December 3</h4>
+                                    </div>
+                                    <br>
+                                    <h4>Open Studio</h4>
+                                </div>
+                                <div class="dayBox">
+                                    <div class="bBox">
+                                        <h4>Tues - December 5</h4>
+                                    </div>
+                                    <br>
+                                    <h4><b>Final Project Due, Discussion
+                                        </b></h4>
+                                    <ul>
+                                        <li>
+                                            Review 2-5PM
+                                        </li>
+                                    </ul>
+                                    <h4>Discuss work in small groups</h4>
+                                    <h4>Open Studio
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FINAL SCREENING -->
+                        <h3 id='w11' class='toggles'>Final Screening</h3>
+                        <div id='w11-content' class='toggle' style='display:none;'>
+                            <div class="weekBox">
+                                <div class="dayBox">
+                                    <div class="aBox">
+                                        <h4>Tues - December 10</h4>
+                                    </div>
+                                    <br>
+                                    <ul>
+                                        <li>Screening 6 – 8 PM</li>
+                                        <li>Invite your friends!</li>
+                                        <li>Bring snacks to share</li>
+                                        <li>EDA open from noon–1pm and 5–6pm for testing</li>
+                                        <li>Dalena will create the screening order</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div id='projects' class='block'>
+                    <h2>Projects</h2>
+                    <h3>Cinema Image — Due October 1 🧠</h3>
+
+                    <p>Create a looping, time-based visual experience under one minute long that is created entirely
+                        from a
+                        single image. Produce the video at 1920 × 1080 pixels and export in MP4 format. Use any software
+                        you
+                        choose or write your own code to transform the single, static image into a series of video
+                        frames.
+                        Upload your video to the class server before 2pm on October 1st. Name the file "P1_YourName.mp4"
+                    </p>
+
+
+
+                    <h3>Scanner Cinema — Due October 15 📽</h3>
+
+
+                    <p>The Scanner Cinema project builds on ideas explored in Cinema Image. A single image (or set of
+                        images) will provide the frames for your video. Use as many images at any size you need to get
+                        the
+                        frames required to realize your idea. As discussed in class, these images are a map of the
+                        video’s
+                        structure in time.</p>
+
+
+                    <p>There are three primary ways to approach the sources images you create: drawing/painting (Lye,
+                        Brakhage), geometry (Sharits,Vasulka), and material collage (Brakhage). I’m open to discussing
+                        other
+                        ideas.</p>
+
+
+                    <p>For Scanner Cinema, the process of creating the frames from the image(s) will be automated with
+                        code. This project combines creating the source images and making modifications to a provided
+                        code
+                        template. The code changes can be minimal, or they can be more involved depending on your ideas
+                        and
+                        your interests.</p>
+
+
+                    <p>The final video must be 1920 × 1080 pixels and in MP4 format. Name the file "P2_YourName.mp4"</p>
+
+
+                    <i>Part 1 — Due October 3</i>
+                    <p>Develop a plan for your video that can be clearly communicated to others. Prepare a set of
+                        diagrams,
+                        drawings, and/or text. We’ll discuss your plan in class.</p>
+
+
+                    <i>Part 2 — Due October 8</i>
+                    <p>Create a few tests for your video idea. Through this step, you’ll figure out your video grid in
+                        relationship to your selected scanner resolution. This is straightforward, but it can be tricky
+                        at
+                        first. Your video grid, as shown in class, will determine how many large images you’ll need to
+                        create and scan to produce the desired number of frames. For example, if you scan and crop to
+                        7,680
+                        × 6,480 pixels, you can get 24 frames at 1920 × 1080 pixels (1920 × 4 = 7680 and 1080 × 6 =
+                        6480.)
+                        You’ll also need to figure out the frames per second (fps) for the video to know how many frames
+                        you’ll need. Will the fps be 12, 24, 30, 60, or something else? For example, 240 frames at 12
+                        fps is
+                        20 seconds of video. Try a range of different frames per second to see what works well for your
+                        idea. Technical Note: If your scans are larger in size than Processing can load into memory, you
+                        can
+                        increase the memory available for Processing in the Preferences (Increase maximum available
+                        memory
+                        to: []), but you may also need to cut your image image into smaller pieces than can be loaded.
+                    </p>
+
+
+                    <i>Part 3 — Due October 10</i>
+
+                    <p>Create a first draft of your video from what you learned from Part 2. This should be near the
+                        final
+                        form for the video, but somewhere between 20% and 50% of the duration. You’ll have five days
+                        from
+                        Thursday to Tuesday to refine and complete the video from Part 3 to 4..</p>
+
+
+                    <i>Part 4 — Due October 15</i>
+                        <p>Upload your final video to the class server before 2pm on October 15th.</p>
+
+
+
+                        <h3>Rotoshop — Due October 29 🎨</h3>
+                        <p>Working in small teams of two to four, you will draw frames and write custom code to create a
+                            short
+                            animation. The Rotoshop project will be created through rotoscoping, an early animation
+                            technique
+                            where artists trace sequences of photographic images. This technique was essential to
+                            cinematic
+                            works such as:</p>
+
+
+                        <ul>
+                            <li>Out of the Inkwell (1915)</li>
+                            <li>Gulliver’s Travels (1939)</li>
+                            <li>Star Wars (1977)</li>
+                            <li>The Lord of the Rings (1978)</li>
+                            <li>Commuter (1981)</li>
+                            <li>Waking Life (2001)</li>
+                        </ul>
+
+
+                        <p>In collaboration, each team will develop an idea for their animation that will include
+                            creating a
+                            custom drawing tool to render the animation. Go back and forth between coding and drawing
+                            and
+                            drawing and coding to develop the software and the rendering style in tandem.</p>
+
+
+                        <p>This is a short, two-week project with many elements that include writing custom code,
+                            drawing
+                            frames, and coordinating with others. You may shoot your own video to rotoscope or you may
+                            modify/transform existing “footage.” Keep the scope simple and spend time on the details of
+                            the
+                            craft. Your animation can be as short as ten seconds at 12fps to encourage quality over
+                            quantity.
+                            Audio is optional.</p>
+
+
+                        <p>Processing will be the default software environment for creating your custom software drawing
+                            tools,
+                            but if another platform is better for your project, let’s discuss it. It’s important that
+                            each
+                            project idea includes some custom software development. We’ll review the basics of working
+                            with
+                            Processing in class on Thursday, 17 October.</p>
+
+
+                        <i>Part 1 — Due October 22
+                    </i>
+                    <p>Create a series of strategic, short rotoscoping tests for your animation idea and complete the
+                        video
+                        frames you will rotoscope. We’ll review the tests 1:1 in class.</p>
+
+
+                    <i>Part 2 — Due October 24</i>
+                    <p>Continue to create short tests. From these explorations, determine the final software features
+                        and
+                        rendering technique. We’ll review these new tests 1:1 in class.</p>
+
+
+                    <i>Part 3 — Due October 29</i>
+                    <p>Upload your final video to the class server before 2pm on October 29th.</p>
+
+
+
+                    <h3>CMPRSSD Cinema — Due December 5 🦠</h3>
+
+
+                    <p>As a final project, create a work of “compressed cinema,” as you define it. This work will be
+                        screened during the last class session and will be discussed. We will have a public screening at
+                        6pm
+                        on December 10th. The work can be of any duration, but we can only screen each work for a
+                        maximum of
+                        five minutes during the final screenings. You may work individually or in small groups. You are
+                        encouraged to utilize code to create/manipulate video and/or the final project might be
+                        cinematic,
+                        nonlinear software. Your work for the final screening can be video or live software, either
+                        autonomous or performed. The only restriction is that your work must be one image channel and up
+                        to
+                        two audio channels.</p>
+
+
+                    <p>The final project is broken down into three parts, each with separate evaluations:</p>
+
+                    <ul>
+                        <li>20% — Part 1, Idea development and communication</li>
+                        <li>30% — Part 2, Process media and creating tests</li>
+                        <li>50% — Part 3, Final work as screened on 5 and 10 December</li>
+                    </ul>
+
+
+                    <i>Part 1 — Due November 5</i>
+                    <p>Prepare three different ideas for the final project and create a presentation to clearly present
+                        these ideas to the class. We’ll discuss the ideas and share our thoughts as a full group. This
+                        is an
+                        important presentation and we have high expectations for it. Have your media on the class server
+                        or
+                        online for quick transitions from one person to the next.</p>
+
+
+                    <i>Part 2A — Due November 12</i>
+                    <p>Complete a first series of experiments to work your way toward making decisions about what to
+                        create. We’ll review this work in small groups.</p>
+
+
+                    <i>Part 2B — Due November 19</i>
+
+                    <p>Complete a second, refined set of tests to further explore your final project idea. Final
+                        production
+                        should begin after this review. We’ll review this work in small groups.</p>
+
+
+                    <i>Part 2C — Due November 26</i>
+                    <p>Test screening. Present your final project in a rough state. We’ll review this work in small
+                        groups.</p>
+
+
+                    <i>Part 3A — Due December 5</i>
+                    <p>Final in-class screening; we’ll watch and discuss all final projects. Test your work on the
+                        classroom hardware during the week before the final review to make sure your work appears and
+                        sounds
+                        as you want it to.</p>
+
+
+                    <i>Part 3B — Due December 10</i>
+                    <p>Public screening in the EDA. The EDA is open that day for testing from noon – 1pm and 5 – 6pm.
+                        Test,
+                        test, and test your work again to make sure everything is working well with the EDA setup. The
+                        final
+                        files for the project are due on the class server</p>
+                </div>
+                <!-- FINAL PROJECTS -->
+                <div id='final' class='block' style='display: block'>
+                    <h2>Final Projects</h2>
+                    <h3>Nidhi Bhanu</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/nidhi-bhanu.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Jade Box</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/jade-box.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Ivana Dama</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/ivana-dama.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Jamie Gonzalez</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/jamie-gonzalez.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Stephen Heo</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/stephen-heo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Lily Kim</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/cj-zepeda-lily-kim.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Adam Knauer</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/adam-knauer.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Celeste Koch</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/celeste-koch.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Danny Lee</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/danny-lee.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Seenahm Suriyasat</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/seenahm-suriyasat.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Natalie Tsang</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/natalie-tsang.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Kai Watanabe</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/kai-wantanabe.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Tina Wen</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/tina-wen.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Nancy Wu</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/nancy-wu.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Dilara Yuksel</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/dilara-yuksel.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h3>Jimmy Zhi</h3>
+                    <video width="100%" height="auto" controls>
+                        <source src="https://classes.dma.ucla.edu/Fall19/171/projects/jimmy-zhi.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+            <!-- END CONTENT -->
+        </div>
+    </div>
+    <div class="parWrap">
+        <div class="parallax">
+            <div class="parallax2"></div>
+            <div class="parallax3"></div>
+            <div class="parallax4">
+                Nidhi Bhanu<br>
+                Jade Box<br>
+                Ivana Dama<br>
+                Jamie Gonzalez<br>
+                Stephen Heo<br>
+                Lily Kim & CJ Zepeda<br>
+                Adam Knauer<br>
+                Celeste Koch<br>
+                Danny Lee<br>
+                Hirad Sab<br>
+                Seenahm Suriyasat<br>
+                Natalie Tsang<br>
+                Kai Watanabe<br>
+                Tina Wen<br>
+                Nancy Wu<br>
+                Dilara Yuksel<br>
+                CJ Zepeda<br>
+                Jimmy Zhi<br>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
